@@ -1,0 +1,8 @@
+t = int(input())  # Read the number of test cases
+
+for _ in range(t):
+    a, b, c = map(int, input().split())  # Read integers a, b, and c
+    if a + b == c:
+        print("+")
+    else:
+        print("-")

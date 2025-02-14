@@ -1,0 +1,12 @@
+t = int(input())  # Number of test cases
+
+for _ in range(t):
+    a, b, c = map(int, input().split())  # Read three digits
+    
+    # Find the unique value
+    if a == b:
+        print(c)
+    elif a == c:
+        print(b)
+    else:
+        print(a)

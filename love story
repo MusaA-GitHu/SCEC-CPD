@@ -1,0 +1,8 @@
+t = int(input())  # Number of test cases
+target = "codeforces"
+
+for _ in range(t):
+    s = input().strip()  # Read input string
+    # Count differences between s and "codeforces"
+    diff_count = sum(1 for i in range(10) if s[i] != target[i])
+    print(diff_count)

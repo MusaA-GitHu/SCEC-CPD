@@ -1,0 +1,8 @@
+x=int(input()) 
+x+= 1
+while len(set(str(x)))!=len(str(x)):
+    if len(set(str(x)))==len(str(x)):
+        break
+    else:
+        x+=1
+print(x) 

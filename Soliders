@@ -1,0 +1,14 @@
+X, y, z= map(int,input().split() 
+a=int(x) 
+b=int(y) 
+c=int(z) 
+sum=0
+for i in range(c):
+   sum+=((i+1)*a)) 
+if sum>b:
+   print(sum-b)
+else:
+print("0") 
+
+
+

@@ -1,0 +1,12 @@
+#solved by MA
+a=int(input())
+b=int(input())
+c=int(input())
+y=a+b*c
+z=a*(b+c)
+m=a*b*c
+f=a+b+c
+r=(a+b)*c
+list=[y,z,m,r,f]
+maxi=max(list)
+print(maxi)

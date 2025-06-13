@@ -1,0 +1,7 @@
+y=int(input())
+min=0
+max=0
+while not max>=y:
+    max+=5
+    min+=1
+print(min)

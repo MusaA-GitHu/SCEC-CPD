@@ -1,0 +1,10 @@
+#Solved by MA
+n=int(input())
+for i in range(n):
+    a,b,c=map(int,input().split())
+    if c>b and b>a:
+        print("STAIR")
+    elif b>a and b>c:
+        print("PEAK")
+    else:
+        print("NONE")

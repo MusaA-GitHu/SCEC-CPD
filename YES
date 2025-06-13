@@ -1,0 +1,10 @@
+#solved by MA
+
+int=int(input())
+for i in range(int):
+    str=input()
+    y=str.lower()
+    if y=="yes":
+        print(y.upper())
+    else:
+        print("NO")

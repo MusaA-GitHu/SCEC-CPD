@@ -1,0 +1,11 @@
+#solved by MA
+n=int(input())
+alp="abcdefghijklmnopqrstuvwxyz"
+m=input()
+if len(m)==n:
+    l =m.lower()
+    y=set(l)
+    if len(alp)==len(y):
+        print("YES")
+    else:
+        print("NO")

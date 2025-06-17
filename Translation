@@ -1,0 +1,12 @@
+#Solved by MA
+#this code check if b is revers of a
+a=input()
+b=input()
+c=a.lower()
+d=b.lower()
+e=c[::-1]
+if e==d:
+    print("YES")
+else:
+    print("NO")
+            

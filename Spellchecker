@@ -1,0 +1,16 @@
+# solved by MA
+n = int(input())
+spel="Timur"
+r=sorted(spel)
+for i in range(n):
+    m=int(input())
+    sp2=input()
+    r=sorted(spel)
+    y=sorted(sp2)
+    if m!=5:
+        print("NO")
+    else:
+         if r==y:
+             print("Yes")
+         else:
+              print("No")  

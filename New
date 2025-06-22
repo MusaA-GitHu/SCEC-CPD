@@ -1,0 +1,12 @@
+a, b = map(int, input().split())
+total_t = 240 - b
+max = 0
+for x in range(1, a + 1):
+    time = 5 * x * (x + 1) // 2
+    if time <= total_t:
+        max = x
+    else:
+        break
+print(max)        
+
+      

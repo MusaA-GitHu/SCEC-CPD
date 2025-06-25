@@ -1,0 +1,10 @@
+#SOLVED BY MA
+n=int(input())
+m=list(map(int,input().split()))
+sum=0
+if len(m)==n:
+    h=m[::-1]
+    if h==m:
+        print("YES")
+    else:
+        print("NO")

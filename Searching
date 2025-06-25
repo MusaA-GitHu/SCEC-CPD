@@ -1,0 +1,9 @@
+n=int(input())
+m=list(map(int,input().split()))
+if len(m)==n:
+    h=int(input())
+    #for i in range(n):
+    if h in m:
+        print(m.index(h))
+    else:
+        print(-1)

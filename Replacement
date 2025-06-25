@@ -1,0 +1,14 @@
+#solved by MA 
+n=int(input())
+arr=list(map(int,input().split()))
+a=[]
+if len(arr)==n:
+    for i in range(n):
+        if arr[i]<0:
+            a.append("2")
+        elif arr[i]>0:
+            a.append("1")
+        else:
+            a.append("0")
+    for i in a:
+        print(i,end=" ")

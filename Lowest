@@ -1,0 +1,7 @@
+#solved by MA 
+n=int(input())
+arr=list(map(int,input().split()))
+if len(arr)==n:
+    mi=min(arr)
+    h=arr.index(mi)
+print(mi,h+1)

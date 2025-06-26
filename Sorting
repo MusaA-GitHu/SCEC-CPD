@@ -1,0 +1,8 @@
+#SOLVED BY MA/SUMMER TIME
+n=int(input())
+m=list(map(int,input().split()))
+if len(m)==n:
+    m.sort()
+    for i in m:
+        print(i,end=" ")
+    

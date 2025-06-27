@@ -1,0 +1,16 @@
+#solved by MA 
+n=int(input())
+for i in range(n):
+    m= int(input())
+    h=list(map(int,input().split()))
+    if len(h)==m:
+        tot=sum(h) 
+        if tot%2!=0:
+            print("NO")
+        else:
+            count1=h.count(1)
+            k=tot//2
+            if count1>0 or k%2==0:
+                print("YES")
+            else:
+                print("NO")

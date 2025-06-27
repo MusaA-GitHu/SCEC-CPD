@@ -1,0 +1,8 @@
+#solved by MA 
+n=int(input())
+m=list(map(int,input().split()))
+sum=0
+if len(m)==n:
+    for i in range(n):
+        sum+=m[i]
+print(abs(sum))

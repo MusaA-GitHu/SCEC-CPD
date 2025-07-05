@@ -1,0 +1,16 @@
+#summer
+t = int(input())
+for i in range(t):
+    n = int(input())
+    c = n // 4
+    r = n % 4
+    if r == 0:
+        print(c)
+    elif r == 2:
+        if c >= 1:
+            print(c + 1)
+        else:
+            print(1)
+    else:
+        
+        pass         

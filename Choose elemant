@@ -1,0 +1,13 @@
+#summer/2025
+a,b=map(int,input().split())
+k=list(map(int,input().split()))
+su=0
+#l=[]
+j=sorted(k)
+s=j[::-1]
+for i in range(b):
+    if s[i]>0:
+        su+=s[i]
+    else:
+        break
+print(su)

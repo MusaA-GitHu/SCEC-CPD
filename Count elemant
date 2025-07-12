@@ -1,0 +1,10 @@
+n = int(input())
+a = list(map(int, input().split()))
+b= set(a)
+count = 0
+for num in a:
+    if (num + 1) in b:
+        count += 1
+print(count)    
+    
+    

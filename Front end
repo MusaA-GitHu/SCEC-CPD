@@ -1,0 +1,30 @@
+#two pointer technique 
+n = int(input())
+a = list(map(int, input().split()))
+
+left = 0
+right = n - 1
+rev = []  
+
+while left <= right:
+    rev.append(str(a[left]))  
+    if left != right:
+        rev.append(str(a[right])) 
+    left += 1
+    right -= 1
+
+print(' '.join(rev))
+
+    
+    
+    
+    
+  
+ 
+         
+   
+    
+        
+
+             
+         

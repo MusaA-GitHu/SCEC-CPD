@@ -1,0 +1,10 @@
+
+n=int(input())
+c=[]
+for i in range(n):
+    b=int(input())
+    c.append(b//2) 
+for j in c:
+    print(j)
+    
+         

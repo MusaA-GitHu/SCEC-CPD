@@ -1,0 +1,15 @@
+#this code will calculate student's total mark and average for a given subject
+
+
+student_marks={}
+name=input("Enter student's name: ")
+for subject in["maths","English","pysics","Chemistry","misic"]:
+    marks=float(input(f"Enter marks for {subject}: "))
+    student_marks[subject]=marks
+print(f"\n student_marks={name}: ")
+for subject,marks in student_marks.items():
+    print(f"{subject}:{marks}")
+total=sum(student_marks.values())
+average=total/len(student_marks)
+print(f"total marks:{total}")
+print(f"everage marks:{average}")

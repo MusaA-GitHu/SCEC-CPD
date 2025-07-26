@@ -1,0 +1,18 @@
+
+t = int(input().strip())
+
+results = []
+for _ in range(t):
+    n = int(input().strip())
+    max_sum = 0
+    best_x = 2
+    for x in range(2, n + 1):
+        k = n // x
+        total = x * (k * (k + 1) // 2)
+        if total > max_sum:
+            max_sum = total
+            best_x = x
+    results.append(best_x)
+
+for res in results:
+    print(res)

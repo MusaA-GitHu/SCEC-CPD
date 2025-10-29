@@ -1,0 +1,15 @@
+##game bell
+#MA
+t_case=int(input())
+num=1
+container=[]
+
+for i in range(1,t_case):
+    num=i+num
+    if num>t_case:
+        num=num-t_case
+    container.append(num)
+for j in container:
+    print(j,end=" ")
+    
+    

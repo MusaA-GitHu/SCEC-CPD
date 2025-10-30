@@ -1,0 +1,8 @@
+#solved by MA
+#python code
+t_case=int(input())
+for i in range(t_case):
+    n=int(input())
+    output=(n+1)//10
+    print(output)
+    

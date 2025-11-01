@@ -1,0 +1,11 @@
+#MA
+t_case=int(input().strip())
+resul=[]
+for i in range(t_case): 
+    n=int(input().strip())
+    lis=list(map(int,input().split()))
+    total=sum(lis)
+    all=total-(n-1)
+    resul.append(all)
+for j in resul:
+    print(J)

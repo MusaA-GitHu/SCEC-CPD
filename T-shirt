@@ -1,0 +1,88 @@
+#MA
+n=int(input())
+for i in range(n):
+    a,b=map(str,input().split())
+    
+    c=a.count('X')
+    d=b.count('X')
+    
+    if 'S' in a and 'S' in b and c>d:
+        print('<')
+    elif 'S' in a and 'S' in b and c<d:
+        print('>')
+    elif 'S' in a and 'S' in b and c==d:
+        print('=')
+        
+    elif 'S' in a and 'L' in b: 
+        print('<')
+    elif 'L' in a and 'S' in b:
+        print('>')
+    elif 'M' in a and 'L' in b:
+        print('<')
+    elif 'L' in a and 'M' in b:
+        print('>')
+    elif 'S' in a and 'M' in b:
+        print('<')
+    elif 'M' in a and 'S' in b:
+        print('>')
+    elif 'M' in a and 'M' in b and c>d:
+        print('>')
+    elif 'M' in a and 'M' in b and c<d:
+        print('<')
+    elif 'M' in a and 'M' in b and c==d:
+        print('=')
+    elif 'L' in a and 'L' in b and c>d:
+        print('>')
+    elif 'L' in a and 'L' in b and c<d:
+        print('<')
+    elif 'L' in a and 'L' in b and c==d:
+        print('=')
+        
+        
+        
+        
+        
+    
+
+        
+    
+   
+
+
+    
+
+
+
+
+        
+              
+         
+         
+    
+    
+    
+    
+    
+    
+    
+
+
+   
+
+
+
+
+        
+        
+    
+    
+    
+       
+     
+    
+
+
+        
+            
+    
+    

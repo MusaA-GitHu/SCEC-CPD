@@ -1,0 +1,15 @@
+#MA
+
+
+n=int(input())
+for i in range(n):
+    
+    t=int(input())
+    total=t*(t+1)//2
+    p=1
+    p_sum=1
+    while p*2<=t:
+        p*=2
+        p_sum+=p
+    print(total-2*p_sum)
+    

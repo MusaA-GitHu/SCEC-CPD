@@ -1,0 +1,10 @@
+#MA
+k=int(input())
+for i in range(k):
+    n,b=map(int,input().split())
+    lis=list(map(int,input().split()))
+    if b==1 and lis!=sorted(lis):
+        print("NO")
+    else:
+        print("Yes")
+    

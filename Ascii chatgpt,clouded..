@@ -1,0 +1,13 @@
+#ma
+
+
+
+lis=list(map(int,input().split()))
+so=sorted(lis)
+
+maxim=max(lis)
+minim=min(lis)
+if maxim-minim<10:
+    print("final",so[1])
+else:
+    print("check again")

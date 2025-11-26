@@ -1,0 +1,14 @@
+#ma
+
+
+for _ in range(int(input())):
+        n , m = map(int , input().split())
+        coun = 0
+        prev1 , prev2 = 0,0
+        for i in range(n):
+                a , b = map(int , input().split())
+                if (a - prev1 - b+prev2)%2:
+                        coun+=1
+                prev1 = a
+                prev2 = b
+        print(m-coun)

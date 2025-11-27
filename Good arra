@@ -1,0 +1,15 @@
+
+
+n=int(input())
+for i in range(n):
+    
+    m=int(input())
+    lis=map(int,input().split())
+    
+    l=sum(lis)
+    if m==l:
+        print(0)
+    elif m>l:
+        print(1)
+    else:
+        print(l-m)

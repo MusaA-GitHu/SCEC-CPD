@@ -1,0 +1,8 @@
+#ma
+
+
+import math
+n, m, a = map(int, input().split())
+l= math.ceil(m / a)
+k = math.ceil(n / a)
+print(l*k)      

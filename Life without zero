@@ -1,0 +1,15 @@
+#MA
+a=input()
+b=input()
+c=a.replace("0","")
+d=b.replace("0","")
+h=int(c)+int(d)
+w=str(h)
+k=int(a)
+l=int(b)
+m=l+k
+f=str(m).replace("0","")
+if f==w:
+    print("YES")
+else:
+    print("NO")

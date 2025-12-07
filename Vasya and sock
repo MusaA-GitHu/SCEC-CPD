@@ -1,0 +1,13 @@
+
+a,b=map(int,input().split())
+d=0
+s=a
+while s>0:
+    d+=1
+    s-=1
+    if d%b==0:
+        s+=1
+        #d+=1
+print(d)
+    
+        

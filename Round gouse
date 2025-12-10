@@ -1,0 +1,6 @@
+
+n,a,b=map(int,input().split())
+m=(a-1+b)%n
+print(m+1)
+    
+    

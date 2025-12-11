@@ -1,0 +1,19 @@
+
+a,b=map(int,input().split())
+tasks=list(map(int,input().split()))  
+
+ba=0
+pa=1
+
+for i in range(b):
+    tar=tasks[i]  
+    
+    if tar>=pa:
+        ba+=tar-pa
+    else:
+        ba+=a-pa+tar  
+    
+    pa=tar  
+
+print(ba)  
+    

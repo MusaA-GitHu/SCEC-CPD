@@ -1,0 +1,10 @@
+lis=""
+a=input()
+b=input()
+for i in range(len(a)):
+    if a[i]==b[i]:
+        lis+="0"
+    else:
+        lis+="1"
+print(lis)
+               

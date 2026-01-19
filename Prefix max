@@ -1,0 +1,7 @@
+n=int(input())
+for i in range(n):
+    m=int(input())
+    lis=list(map(int,input().split()))
+    maxi=max(lis)
+    print(maxi*m)
+    

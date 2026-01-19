@@ -1,0 +1,11 @@
+n_w=int(input())
+y=0
+x=0
+
+for i in range(n_w):
+    st=input()
+    if "++" in st:
+        y+=1
+    else:
+        x-=1
+print(x+y)

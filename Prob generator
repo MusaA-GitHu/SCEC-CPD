@@ -1,0 +1,44 @@
+n = int(input())
+
+for i in range(n):
+    n,m=map(int,input().split())
+    a=input()
+    l=0
+    a_=a.count("A")
+    b_=a.count("B")
+    c_=a.count("C")
+    d_=a.count("D")
+    e_=a.count("E")
+    f_=a.count("F")
+    g_=a.count("G")
+    if a_>=m:
+        l+=0
+    else:
+        l+=m-a_
+    if b_>=m:
+        l+=0
+    else:
+        l+=m-b_
+    if c_>=m:
+        l+=0
+    else:
+        l+=m-c_
+    if d_>=m:
+        l+=0
+    else:
+        l+=m-d_
+    if e_>=m:
+        l+=0
+    else:
+        l+=m-e_
+    if f_>=m:
+        l+=0
+    else:
+        l+=m-f_
+    if g_>=m:
+        l+=0
+    else:
+        l+=m-g_
+    print(l)
+   
+   

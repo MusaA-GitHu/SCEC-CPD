@@ -1,0 +1,19 @@
+#MA
+n=int(input())
+
+
+for i in range(n):
+    #odd=0
+    even=[]
+    
+    m=int(input())
+    lis=list(map(int,input().split()))
+    for x in lis:
+       if x%2==0:
+            even.append(1)
+    
+        
+    if sum(even)==m:
+        print("yes")
+    else:
+        print("no")

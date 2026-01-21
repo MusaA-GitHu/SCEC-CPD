@@ -1,0 +1,14 @@
+#MA
+
+n=int(input())
+for i in  range(n):
+    a,b,c=map(int,input().split())
+    if a==b and c%2==0:
+        print("Second")
+    elif a==b and c%2!=0:
+        print("First")
+    else:
+        if a+c>b+c:
+            print("First")
+        else:
+            print("Second")

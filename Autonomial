@@ -1,0 +1,19 @@
+t = int(input())
+
+for _ in range(t):
+    n = int(input())
+    lis = list(map(int, input().split()))
+    count1 = 0
+    count2 = 0
+    
+    for i in range(len(lis) - 1):
+        diff = abs(lis[i+1] - lis[i])
+        if diff == 5 or diff == 7:
+            count1 += 1
+        else:
+            count2 += 1 
+    if count1 == n - 1 and count2 == 0:
+        print("YES")
+    else:
+        print("NO")    
+    

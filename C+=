@@ -1,0 +1,16 @@
+#ma
+tcase=int(input())
+for i in range(tcase):
+    a,b,n=map(int,input().split())
+    co=0
+    while a<=n and b<=n:
+        
+        if a>b:
+            b+=a
+            co+=1
+        else: 
+            a+=b
+            co+=1
+    print(co)
+    
+

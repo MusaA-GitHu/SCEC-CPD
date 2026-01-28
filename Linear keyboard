@@ -1,0 +1,13 @@
+#ma
+
+n=int(input())
+for i in range(n):
+    st1=input().strip()
+    st2=input().strip()
+    tot=0
+    for j in range(1,len(st2)):
+        tot=tot+abs((b.index(st2[j])-b.index(st2[j-1])))
+    print(tot)
+
+        
+        

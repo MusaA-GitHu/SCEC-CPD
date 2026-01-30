@@ -1,0 +1,13 @@
+#ma
+t=int(input())
+con=0
+for i in range(t):
+    n=int(input())
+    st=input()
+    map=st.count("map")
+    pie=st.count("pie")
+    mapie=st.count("mapie")
+    
+        
+    print((map+pie)-mapie)
+    

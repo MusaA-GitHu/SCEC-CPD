@@ -1,0 +1,12 @@
+#ma
+n=int(input())
+for i in range(n):
+    m=int(input())
+    st=input()
+    if"U" in st:
+        k=st.replace("U","D")
+        print(k)
+    else:
+        l=st.replace("D","U")
+        print(l)
+    
